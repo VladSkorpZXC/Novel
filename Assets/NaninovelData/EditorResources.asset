@@ -149,3 +149,7 @@ MonoBehaviour:
     - name: NewScript
       pathPrefix: Scripts
       guid: ebe63a15b1a644e48889e36bb878ab5b
+  - Id: Backgrounds/0bfd3841-c5ff-4471-8060-a6128039149d
+    Resources: []
+  - Id: Backgrounds/f43e739d-c470-47a4-9399-0e382880e485
+    Resources: []
