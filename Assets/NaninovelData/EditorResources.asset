@@ -158,6 +158,9 @@ MonoBehaviour:
     Resources: []
   - Id: Characters/f70acbbb-5ec7-4ccd-b3f5-3d24dd2f5e1e
     Resources:
-    - name: 
-      pathPrefix: Characters/Ring
-      guid: 
+    - name: Default
+      pathPrefix: Characters/Anna
+      guid: 9316cffaec4cf4646b12cb5feba364db
+    - name: Smile
+      pathPrefix: Characters/Anna
+      guid: 07900fe05c408a142b340040370d8471

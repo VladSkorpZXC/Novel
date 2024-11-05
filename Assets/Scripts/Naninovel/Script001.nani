@@ -1,3 +1,5 @@
 @back beach id:Beach
+@char Anna.Default time:5
+@char Anna.Smile
 Hello world
 @stop
