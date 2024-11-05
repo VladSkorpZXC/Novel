@@ -1,5 +1,6 @@
 @back beach id:Beach
-@char Anna.Default time:5
-@char Anna.Smile
-Hello world
+@char Anna.Default pose:DownLeft
+Анна: Привет Nani
+@char Nani.Default look:left pose:DownRight
+Nani: Привет Анна
 @stop

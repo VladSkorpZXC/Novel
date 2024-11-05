@@ -164,3 +164,11 @@ MonoBehaviour:
     - name: Smile
       pathPrefix: Characters/Anna
       guid: 07900fe05c408a142b340040370d8471
+  - Id: Characters/6201d4bc-761e-4cab-96b0-e70ccb8b7e63
+    Resources:
+    - name: Default
+      pathPrefix: Characters/Nani
+      guid: e4c66f61fdf61a74ba53978c41675a2b
+    - name: Smile
+      pathPrefix: Characters/Nani
+      guid: 4d3354c3728afbd42ac543d102478671

@@ -66,7 +66,7 @@ MonoBehaviour:
   Metadata:
     ids:
     - Anna
-    - 
+    - Nani
     metas:
     - Implementation: Naninovel.SpriteCharacter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
@@ -93,7 +93,7 @@ MonoBehaviour:
         y: 0
         width: 1
         height: 1
-      BakedLookDirection: 1
+      BakedLookDirection: 2
       DisplayName: 
       UseCharacterColor: 0
       NameColor: {r: 1, g: 1, b: 1, a: 1}
@@ -109,7 +109,29 @@ MonoBehaviour:
       MessageSoundPlayback: 0
       VoiceSource: {fileID: 0}
       LinkedPrinter: 
-      Poses: []
+      Poses:
+      - name: DownLeft
+        actorState:
+          appearance: 
+          visible: 0
+          position: {x: -6, y: -5.994, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+          tintColor: {r: 0, g: 0, b: 0, a: 0}
+          lookDirection: 0
+        overriddenProperties:
+        - position
+      - name: DownRight
+        actorState:
+          appearance: 
+          visible: 0
+          position: {x: 6, y: -5.994, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+          tintColor: {r: 0, g: 0, b: 0, a: 0}
+          lookDirection: 0
+        overriddenProperties:
+        - position
     - Implementation: Naninovel.SpriteCharacter, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
       Loader:
@@ -135,7 +157,7 @@ MonoBehaviour:
         y: 0
         width: 1
         height: 1
-      BakedLookDirection: 1
+      BakedLookDirection: 2
       DisplayName: 
       UseCharacterColor: 0
       NameColor: {r: 1, g: 1, b: 1, a: 1}
@@ -151,7 +173,29 @@ MonoBehaviour:
       MessageSoundPlayback: 0
       VoiceSource: {fileID: 0}
       LinkedPrinter: 
-      Poses: []
+      Poses:
+      - name: DownLeft
+        actorState:
+          appearance: 
+          visible: 0
+          position: {x: -6, y: -6, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+          tintColor: {r: 0, g: 0, b: 0, a: 0}
+          lookDirection: 0
+        overriddenProperties:
+        - position
+      - name: DownRight
+        actorState:
+          appearance: 
+          visible: 0
+          position: {x: 6, y: -6, z: 0}
+          rotation: {x: 0, y: 0, z: 0, w: 0}
+          scale: {x: 0, y: 0, z: 0}
+          tintColor: {r: 0, g: 0, b: 0, a: 0}
+          lookDirection: 0
+        overriddenProperties:
+        - position
   AvatarLoader:
     PathPrefix: CharacterAvatars
     ProviderTypes:
