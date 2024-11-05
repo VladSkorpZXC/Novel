@@ -21,6 +21,19 @@ Nani: Привет Анна
 # Next
 Анна: Тогда пошли
 
+@hideChars Anna
+@hideChars Klara
+
+@back garden id:Garden
+
+@char Klara.Default pose:DownLeft
+@char Nani.Default look:left pose:DownRight
+
+
+Nani: Клара ты тоже здесь
+Klara: Да помогаю Анне со слизнями
+
+
 @cheackScore
 
 @stop

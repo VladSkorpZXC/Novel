@@ -172,3 +172,16 @@ MonoBehaviour:
     - name: Smile
       pathPrefix: Characters/Nani
       guid: 4d3354c3728afbd42ac543d102478671
+  - Id: Backgrounds/2d3340f3-ff46-4fcc-aafd-dcef28aaab44
+    Resources:
+    - name: garden
+      pathPrefix: Backgrounds/Garden
+      guid: 8235a082b0e98634daf2694aff8488a3
+  - Id: Characters/99e3dbe6-315f-4b61-8803-4c793937c9f0
+    Resources:
+    - name: Default
+      pathPrefix: Characters/Klara
+      guid: 3fdd6d415dd9c9f46b20c3c9fbb6165b
+    - name: Smile
+      pathPrefix: Characters/Klara
+      guid: 4a3fcfce2b427ed4d94dd8e04c839db7
