@@ -3,10 +3,24 @@
 Анна: Привет Nani
 @char Nani.Default look:left pose:DownRight
 Nani: Привет Анна
-
 Анна: Можешь помочь мне со слизнями они мне так надоели
 
+@choice "Да кончено" goto:.Yes
+@choice "Нет кончено" goto:.No
+@stop
 
-@choice "Да кончено"
-@choice "Нет кончено"
+# Yes
+Анна: Спасибо
+@addScore score:1
+@goto .Next
+
+# No
+@addScore score:0
+Анна: Очень жаль
+
+# Next
+Анна: Тогда пошли
+
+@cheackScore
+
 @stop
