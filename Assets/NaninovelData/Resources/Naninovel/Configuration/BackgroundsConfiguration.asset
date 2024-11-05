@@ -50,7 +50,7 @@ MonoBehaviour:
   Metadata:
     ids:
     - MainBackground
-    - Snow
+    - Beach
     metas:
     - Implementation: Naninovel.SpriteBackground, Elringus.Naninovel.Runtime, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
