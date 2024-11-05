@@ -6,10 +6,10 @@ static public class CoinPlayer
 {
     static public int scorePlayer;
 
-    static public int AddScore(int count)
+    static public void AddScore(int count)
     {
         scorePlayer += count;
-        return scorePlayer;
+        CheackScore();
     }
 
     static public int CheackScore()
