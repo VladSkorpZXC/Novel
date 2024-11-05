@@ -110,6 +110,7 @@ public class Game : MonoBehaviour
         _findCard = true;
         yield return new WaitForSeconds(1f);
         card.GetComponent<Card>().FindCards();
+        ChaeckWin();
         _findCard = false;
     }
 
@@ -125,7 +126,7 @@ public class Game : MonoBehaviour
             }
         }
 
-        if(a == _listCards.Count)
+        if(a == _listCards.Count - 1)
         {
             _winPanel.SetActive(true);
         }
